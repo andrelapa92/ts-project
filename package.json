@@ -4,6 +4,7 @@
   "description": "Projeto inicial com TypeScript.",
   "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/andrelapa92/ts-project#readme",
   "dependencies": {
     "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.2"
   }
 }
